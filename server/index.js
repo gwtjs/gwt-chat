@@ -13,6 +13,8 @@ app.get('/', function(req, res) {
 })
 
 io.on('connection', function(socket) {
+  console.log(socket.handshake.address)
+
   socket.join('room 237', () => {
     let rooms = Object.keys(socket.rooms)
     console.log(rooms)

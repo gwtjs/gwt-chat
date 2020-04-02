@@ -26,3 +26,30 @@ footer {
   width: 100%;
   background: #f0f0f0;
 }
+
+.controls {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cut,
+.speak {
+  margin: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 3px;
+}
+.cut {
+  background: red;
+}
+.speak {
+  background: green;
+}
+.time {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+}
